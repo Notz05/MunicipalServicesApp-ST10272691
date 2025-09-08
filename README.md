@@ -42,7 +42,7 @@ A C# .NET Framework Windows Forms application designed to streamline municipal s
 
 1. **Clone or Download the Source Code**
    ```
-   git clone [repository-url]
+   git clone [[repository-url]](https://github.com/Notz05/MunicipalServicesApp-ST10272691.git)
    ```
 
 2. **Open in Visual Studio**
@@ -167,10 +167,6 @@ MunicipalServicesApplication/
    - Location and description cannot be empty
    - Category must be selected
 
-### Support
-For technical support or bug reports, please contact the development team or submit an issue through the appropriate channels.
-
-## Development Notes
 
 ### Code Standards
 - **Naming Conventions**: PascalCase for public members, camelCase for private fields
@@ -178,13 +174,6 @@ For technical support or bug reports, please contact the development team or sub
 - **Error Handling**: Try-catch blocks for file operations and external dependencies
 - **UI Guidelines**: Consistent spacing, color scheme, and font usage
 
-### Future Enhancements
-- Database integration for persistent storage
-- User authentication and profiles
-- Email notifications for issue updates
-- Mobile application companion
-- Integration with municipal management systems
-- Reporting and analytics dashboard
 
 ## License
 
