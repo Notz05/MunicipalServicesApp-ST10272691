@@ -42,7 +42,7 @@ A C# .NET Framework Windows Forms application designed to streamline municipal s
 
 1. **Clone or Download the Source Code**
    ```
-   git clone [[repository-url]](https://github.com/Notz05/MunicipalServicesApp-ST10272691.git)
+   git clone (https://github.com/Notz05/MunicipalServicesApp-ST10272691.git)
    ```
 
 2. **Open in Visual Studio**
