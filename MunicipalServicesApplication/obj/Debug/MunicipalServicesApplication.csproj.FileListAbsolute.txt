@@ -1,0 +1,9 @@
+C:\Users\joshu\source\repos\MunicipalServicesApplication\MunicipalServicesApplication\obj\Debug\MunicipalServicesApplication.csproj.AssemblyReference.cache
+C:\Users\joshu\source\repos\MunicipalServicesApplication\MunicipalServicesApplication\bin\Debug\MunicipalServicesApplication.exe.config
+C:\Users\joshu\source\repos\MunicipalServicesApplication\MunicipalServicesApplication\bin\Debug\MunicipalServicesApplication.exe
+C:\Users\joshu\source\repos\MunicipalServicesApplication\MunicipalServicesApplication\bin\Debug\MunicipalServicesApplication.pdb
+C:\Users\joshu\source\repos\MunicipalServicesApplication\MunicipalServicesApplication\obj\Debug\MunicipalServicesApplication.Properties.Resources.resources
+C:\Users\joshu\source\repos\MunicipalServicesApplication\MunicipalServicesApplication\obj\Debug\MunicipalServicesApplication.csproj.GenerateResource.cache
+C:\Users\joshu\source\repos\MunicipalServicesApplication\MunicipalServicesApplication\obj\Debug\MunicipalServicesApplication.csproj.CoreCompileInputs.cache
+C:\Users\joshu\source\repos\MunicipalServicesApplication\MunicipalServicesApplication\obj\Debug\MunicipalServicesApplication.exe
+C:\Users\joshu\source\repos\MunicipalServicesApplication\MunicipalServicesApplication\obj\Debug\MunicipalServicesApplication.pdb
