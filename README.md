@@ -186,4 +186,4 @@ This application is developed for educational purposes as part of the Portfolio 
 
 ---
 
-**© 2024 Municipal Services Application - Developed for PROG7313 PoE Part 2**
+**© 2024 Municipal Services Application - Developed for PROG7313 PoE**
