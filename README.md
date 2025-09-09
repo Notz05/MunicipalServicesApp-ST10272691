@@ -1,189 +1,184 @@
 # Municipal Services Application
 
-A C# .NET Framework Windows Forms application designed to streamline municipal services in South Africa. This application provides an efficient and user-friendly platform for citizens to report issues and request various municipal services.
+This Windows Forms application, built using C# and the .NET Framework, is designed to enhance the delivery of municipal services in South Africa. It offers a streamlined and accessible interface for residents to report service-related issues and submit requests to local authorities.
 
 ## Features
 
-### Current Implementation
-- **Report Issues**: Citizens can report municipal issues with detailed information
-- **Location Input**: Text field for specifying the location of the issue
-- **Category Selection**: Dropdown menu with predefined categories (Sanitation, Roads, Utilities, etc.)
-- **Detailed Description**: Rich text box for comprehensive issue descriptions
-- **File Attachments**: Support for attaching images and documents using OpenFileDialog
-- **User Engagement**: Dynamic encouraging messages and progress indicators
-- **Form Validation**: Comprehensive input validation with user-friendly error messages
-- **Data Management**: Efficient storage and management of reported issues
+### Current Capabilities
+- **Issue Reporting**: Enables users to submit detailed reports on municipal problems  
+- **Location Entry**: Text input for specifying where the issue occurred  
+- **Category Selection**: Dropdown list with predefined service categories (e.g., Roads, Sanitation, Utilities)  
+- **Issue Description**: Rich text field for elaborating on the nature of the problem  
+- **File Uploads**: Allows users to attach images or documents via OpenFileDialog  
+- **User Interaction**: Displays motivational prompts and progress indicators to encourage engagement  
+- **Input Validation**: Ensures all fields are correctly completed, with clear error messages  
+- **Data Handling**: Manages and stores submitted reports efficiently
 
-### Future Features (Coming Soon)
-- **Local Events and Announcements**: Access to community events and municipal announcements
-- **Service Request Status**: Track the status of submitted service requests
+### Planned Enhancements
+- **Community Updates**: View local events and municipal announcements  
+- **Request Tracking**: Monitor the progress of submitted service requests
 
 ## System Requirements
 
-- **Operating System**: Windows 7 or later
-- **Framework**: .NET Framework 4.8 or later
-- **IDE**: Visual Studio 2017 or later (for development)
-- **Memory**: Minimum 2GB RAM
-- **Storage**: 50MB available space
+- **Supported OS**: Windows 7 or newer  
+- **Framework Dependency**: .NET Framework 4.8 or above  
+- **Development Environment**: Visual Studio 2017 or later  
+- **Minimum RAM**: 2GB  
+- **Disk Space**: At least 50MB free
 
 ## Installation and Setup
 
-### For End Users
+### For General Users
 
-1. **Download the Application**
-   - Download the compiled executable from the releases section
-   - Extract to your preferred directory
+1. **Download the Executable**  
+   - Locate the latest release and extract the files to your chosen folder
 
-2. **Run the Application**
-   - Double-click `MunicipalServicesApplication.exe`
-   - No additional installation required
+2. **Launch the Application**  
+   - Run `MunicipalServicesApplication.exe` directly  
+   - No installation steps required
 
 ### For Developers
 
-1. **Clone or Download the Source Code**
+1. **Clone the Repository**  
+   ```bash
+   git clone https://github.com/Notz05/MunicipalServicesApp-ST10272691.git
    ```
-   git clone (https://github.com/Notz05/MunicipalServicesApp-ST10272691.git)
-   ```
 
-2. **Open in Visual Studio**
-   - Open `MunicipalServicesApplication.sln` in Visual Studio
-   - Ensure .NET Framework 4.8 is installed
+2. **Open the Solution**  
+   - Launch `MunicipalServicesApplication.sln` in Visual Studio  
+   - Confirm that .NET Framework 4.8 is installed
 
-3. **Build the Solution**
-   - Right-click on the solution in Solution Explorer
-   - Select "Build Solution" or press `Ctrl+Shift+B`
+3. **Build the Project**  
+   - In Solution Explorer, right-click the solution  
+   - Choose "Build Solution" or use `Ctrl+Shift+B`
 
-4. **Run the Application**
-   - Press `F5` to run in debug mode
-   - Or press `Ctrl+F5` to run without debugging
+4. **Run the Application**  
+   - Use `F5` to start in debug mode  
+   - Or `Ctrl+F5` to run without debugging
 
-## How to Use the Application
+## Using the Application
 
-### Main Menu
-1. **Launch the Application**: The main menu displays three options
-2. **Report Issues**: Click to access the issue reporting functionality
-3. **Local Events**: Currently disabled (coming soon)
-4. **Service Request Status**: Currently disabled (coming soon)
+### Main Menu Navigation
 
-### Reporting an Issue
+1. **Start the App**: The main interface presents three options  
+2. **Report Issues**: Opens the issue submission form  
+3. **Local Events**: Feature currently inactive (coming soon)  
+4. **Request Status**: Feature currently inactive (coming soon)
 
-1. **Access Report Issues**
-   - Click "Report Issues" from the main menu
+### Submitting an Issue
 
-2. **Fill in Issue Details**
-   - **Location**: Enter the specific location where the issue occurred
-   - **Category**: Select the appropriate category from the dropdown:
-     - Sanitation
-     - Roads
-     - Utilities
-     - Water Supply
-     - Electricity
-     - Street Lighting
-     - Parks and Recreation
-     - Public Safety
-     - Waste Management
-     - Other
-   - **Description**: Provide a detailed description of the issue
+1. **Open the Reporting Form**  
+   - Select "Report Issues" from the main menu
 
-3. **Attach Supporting Files** (Optional)
-   - Click "Attach Files" to add images or documents
-   - Supported formats: All file types (images, PDFs, documents, etc.)
-   - Multiple files can be attached
-   - Use "Remove File" to delete selected attachments
+2. **Enter Issue Details**  
+   - **Location**: Specify where the issue occurred  
+   - **Category**: Choose from the following options:  
+     - Sanitation  
+     - Roads  
+     - Utilities  
+     - Water Supply  
+     - Electricity  
+     - Street Lighting  
+     - Parks and Recreation  
+     - Public Safety  
+     - Waste Management  
+     - Other  
+   - **Description**: Provide a thorough explanation of the issue
 
-4. **Submit the Report**
-   - Click "Submit Report" to file the issue
-   - A progress bar will show the submission progress
-   - Confirmation message will display the assigned Issue ID
+3. **Attach Files (Optional)**  
+   - Use "Attach Files" to upload relevant images or documents  
+   - All file types are supported  
+   - Multiple attachments allowed  
+   - Use "Remove File" to delete any selected files
 
-5. **Navigation Options**
-   - **Back to Menu**: Return to the main menu
-   - **Clear Form**: Reset all fields (with confirmation)
+4. **Submit the Report**  
+   - Click "Submit Report"  
+   - A progress bar will indicate submission status  
+   - A confirmation message will display the assigned Issue ID
+
+5. **Additional Options**  
+   - **Back to Menu**: Return to the main screen  
+   - **Clear Form**: Reset all fields (confirmation required)
 
 ## Application Architecture
 
-### Project Structure
+### Project Layout
 ```
 MunicipalServicesApplication/
 ├── Models/
-│   └── Issue.cs                 # Data model for reported issues
+│   └── Issue.cs                     # Defines the structure of an issue report
 ├── Services/
-│   └── IssueManager.cs         # Business logic for issue management
+│   └── IssueManager.cs             # Handles business logic for issue processing
 ├── Forms/
-│   ├── Form1.cs                # Main menu form
-│   ├── Form1.Designer.cs       # Main menu UI design
-│   ├── ReportIssuesForm.cs     # Issue reporting form
-│   └── ReportIssuesForm.Designer.cs # Issue reporting UI design
-├── Properties/                  # Assembly and resource files
-└── Program.cs                  # Application entry point
+│   ├── Form1.cs                    # Main menu functionality
+│   ├── Form1.Designer.cs          # UI layout for main menu
+│   ├── ReportIssuesForm.cs        # Issue reporting logic
+│   └── ReportIssuesForm.Designer.cs # UI layout for issue reporting
+├── Properties/                     # Application resources and settings
+└── Program.cs                      # Entry point for application execution
 ```
 
-### Key Components
+### Core Components
 
-1. **Issue Model**: Represents a reported issue with properties for location, category, description, attachments, and metadata
+1. **Issue Model**: Defines fields for location, category, description, attachments, and metadata  
+2. **IssueManager**: Implements a singleton pattern to manage issue records  
+3. **Main Menu Form**: Provides navigation to key modules  
+4. **Report Issues Form**: Facilitates issue submission with validation and file support
 
-2. **IssueManager Service**: Singleton pattern implementation for managing the collection of reported issues
+## Design Highlights
 
-3. **Main Menu Form**: Entry point with navigation to different application modules
-
-4. **Report Issues Form**: Comprehensive form for issue reporting with validation and file attachment capabilities
-
-## Design Features
-
-### User Interface
-- **Modern Design**: Clean, professional interface with consistent color scheme
-- **Responsive Layout**: Adapts to different screen sizes and resolutions
-- **Accessibility**: Clear labels, logical tab order, and keyboard navigation support
-- **Visual Feedback**: Progress indicators, success messages, and error alerts
+### Interface Design
+- **Professional Layout**: Clean and consistent visual design  
+- **Responsive UI**: Adapts to various screen sizes and resolutions  
+- **Accessibility**: Includes clear labels, logical tab order, and keyboard support  
+- **Feedback Mechanisms**: Displays progress bars, success confirmations, and error alerts
 
 ### User Experience
-- **Intuitive Navigation**: Clear button labels and logical flow
-- **Input Validation**: Real-time validation with helpful error messages
-- **Engagement Features**: Encouraging messages to promote citizen participation
-- **File Management**: Easy file attachment and removal functionality
+- **Streamlined Navigation**: Clearly labeled buttons and intuitive flow  
+- **Real-Time Validation**: Immediate feedback on input errors  
+- **Engagement Tools**: Motivational prompts to encourage participation  
+- **File Handling**: Simple interface for adding and removing attachments
 
-### Technical Implementation
-- **Data Structures**: Efficient use of Lists and custom objects for data management
-- **Event Handling**: Comprehensive event handlers for all user interactions
-- **Error Handling**: Robust error handling with user-friendly messages
-- **Memory Management**: Proper disposal of resources and file handles
+### Technical Details
+- **Data Structures**: Utilizes Lists and custom objects for efficient data storage  
+- **Event Management**: Comprehensive handling of user interactions  
+- **Error Management**: Graceful error handling with informative messages  
+- **Resource Management**: Ensures proper disposal of system resources
 
 ## Troubleshooting
 
-### Common Issues
+### Common Problems
 
-1. **Application Won't Start**
-   - Ensure .NET Framework 4.8 is installed
-   - Check Windows compatibility
-   - Run as administrator if needed
+1. **Application Fails to Launch**  
+   - Verify .NET Framework 4.8 is installed  
+   - Confirm OS compatibility  
+   - Try running as administrator
 
-2. **File Attachment Issues**
-   - Verify file permissions
-   - Check available disk space
-   - Ensure file is not in use by another application
+2. **Issues with File Uploads**  
+   - Check file permissions  
+   - Ensure sufficient disk space  
+   - Confirm the file is not open in another program
 
-3. **Form Validation Errors**
-   - All required fields must be completed
-   - Location and description cannot be empty
-   - Category must be selected
+3. **Validation Errors**  
+   - All mandatory fields must be completed  
+   - Location and description cannot be blank  
+   - A category must be selected
 
-
-### Code Standards
-- **Naming Conventions**: PascalCase for public members, camelCase for private fields
-- **Documentation**: XML comments for public methods and classes
-- **Error Handling**: Try-catch blocks for file operations and external dependencies
-- **UI Guidelines**: Consistent spacing, color scheme, and font usage
-
+### Coding Standards
+- **Naming**: PascalCase for public members, camelCase for private variables  
+- **Documentation**: XML comments for public classes and methods  
+- **Error Handling**: Use of try-catch blocks for external operations  
+- **UI Consistency**: Uniform spacing, colors, and fonts throughout
 
 ## License
 
-This application is developed for educational purposes as part of the Portfolio of Evidence (PoE) project.
+This software was developed for educational use as part of the Portfolio of Evidence (PoE) project.
 
 ## Version History
 
-- **v1.0.0**: Initial implementation with issue reporting functionality
-- **Future versions**: Will include local events and service request status features
+- **v1.0.0**: Initial release with core issue reporting functionality  
+- **Upcoming Releases**: Will include support for local events and request tracking
 
 ---
 
-**© 2024 Municipal Services Application - Developed for PROG7313 PoE**
+**© 2025 Municipal Services Application – Developed for PROG7312 PoE**
